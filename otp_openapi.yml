@@ -3,7 +3,7 @@ info:
   title: OTP Verification
   version: 1.0.0
 servers:
-  - url: https://example.com  # Replace this with your actual API URL
+  - url: https://your-api-base-url.com  # <- Replace this with your real API base URL
 paths:
   /send_otp:
     post:
