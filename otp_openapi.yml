@@ -1,14 +1,15 @@
-openapi: 3.1.0
+openapi: 3.0.0
 info:
-  title: Telegram Bot API Integration
+  title: OTP Verification via Telegram
   version: 1.0.0
 servers:
   - url: https://api.telegram.org/bot7556260353:AAEM_qHgLpMpRT6qeFbpegv63apG3-KzSXU
+    description: Telegram Bot API
 paths:
   /sendMessage:
     post:
       operationId: sendMessage
-      summary: Send a message via Telegram
+      summary: Send OTP to Telegram user
       requestBody:
         required: true
         content:
@@ -17,8 +18,8 @@ paths:
               type: object
               properties:
                 chat_id:
-                  type: integer
-                  description: Unique identifier for the target chat
+                  type: string
+                  description: Unique identifier for the target chat or username of the target channel (in the format @channelusername)
                 text:
                   type: string
                   description: Text of the message to be sent
