@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: OTP Verification
+  version: 1.0.0
+paths:
+  /send_otp:
+    post:
+      summary: Send OTP to Telegram
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                chat_id:
+                  type: string
+      responses:
+        '200':
+          description: OTP sent
+  /verify_otp:
+    post:
+      summary: Verify OTP
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                chat_id:
+                  type: string
+                otp:
+                  type: string
+      responses:
+        '200':
+          description: OTP verified
+        '401':
+          description: OTP failed
