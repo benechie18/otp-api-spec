@@ -1,0 +1,70 @@
+**Privacy Policy for Bluenci AI**
+
+**Effective Date:** April 8, 2025
+
+At **Bluenci AI**, your privacy is our top priority. This Privacy Policy explains how we collect, use, and protect your information when you use our AI-powered services. By using Bluenci AI, you agree to the practices outlined below.
+
+---
+
+## 1. What Information We Collect
+
+We may collect the following types of information:
+
+### ✅ Personal Information (with consent)
+- Name, email address, and phone number (e.g., for OTP verification).
+- Social media or messaging IDs if you link apps like WhatsApp or Telegram.
+
+### ✅ Usage Data
+- Interactions with our chatbot or tools.
+- Preferences and feedback to improve your experience.
+
+### ✅ Device and Log Data
+- IP address, browser type, and device info.
+- Time and date of usage, pages visited, and other diagnostic data.
+
+---
+
+## 2. How We Use Your Information
+
+We use your data to:
+- Provide and maintain Bluenci AI’s features.
+- Personalize and improve your AI experience.
+- Verify your identity and protect against fraud.
+- Communicate updates, offers, or support.
+
+---
+
+## 3. Sharing Your Information
+
+Your data is **never sold**. We only share it:
+- With trusted third-party services (e.g., OTP providers like WhatsApp/Telegram).
+- To comply with legal obligations or protect our rights.
+- With your explicit consent.
+
+---
+
+## 4. Data Security
+
+We use industry-standard encryption and security protocols to keep your data safe. While no system is 100% secure, we take strong measures to protect your information.
+
+---
+
+## 5. Your Rights and Choices
+
+You have the right to:
+- Access or correct your data.
+- Delete your information from our systems.
+- Opt out of marketing or non-essential communications.
+
+---
+
+## 6. Children’s Privacy
+
+Bluenci AI is not intended for use by children under 13. We do not knowingly collect data from children.
+
+---
+
+## 7. Changes to This Policy
+
+We may update this Privacy Policy from time to time. We'll notify you of any major changes and post the revised policy here with a new effective date.
+
