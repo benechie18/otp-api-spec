@@ -2,6 +2,8 @@ openapi: 3.0.0
 info:
   title: OTP Verification
   version: 1.0.0
+servers:
+  - url: https://example.com  # Replace this with your actual API URL
 paths:
   /send_otp:
     post:
@@ -15,9 +17,10 @@ paths:
               properties:
                 chat_id:
                   type: string
+                  description: Telegram chat ID of the recipient
       responses:
         '200':
-          description: OTP sent
+          description: OTP sent successfully
   /verify_otp:
     post:
       summary: Verify OTP
@@ -30,10 +33,12 @@ paths:
               properties:
                 chat_id:
                   type: string
+                  description: Telegram chat ID of the recipient
                 otp:
                   type: string
+                  description: One-Time Password to verify
       responses:
         '200':
-          description: OTP verified
+          description: OTP verified successfully
         '401':
-          description: OTP failed
+          description: Invalid or expired OTP
